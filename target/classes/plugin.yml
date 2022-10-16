@@ -1,0 +1,11 @@
+name: easyuuid
+main: xyz.clxrity.easyuuid.Plugin
+version: 0.0.1
+api-version: 1.15
+description: Grab a player's UUID
+authors: ["clxrity"]
+
+commands:
+  description: Fetch a player's UUID
+  usage: /fetch <name>
+  aliases: [find]
