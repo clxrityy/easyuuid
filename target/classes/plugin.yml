@@ -6,6 +6,7 @@ description: Grab a player's UUID
 authors: ["clxrity"]
 
 commands:
-  description: Fetch a player's UUID
-  usage: /fetch <name>
-  aliases: [find]
+  fetch:
+    description: Fetch a player's UUID
+    usage: /<command> <name>
+    aliases: [find]
