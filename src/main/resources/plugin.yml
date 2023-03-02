@@ -4,9 +4,22 @@ version: 0.0.1
 api-version: 1.15
 description: Grab a player's UUID
 authors: ["clxrity"]
+website: https://mjanglin.com
+
 
 commands:
   fetch:
     description: Fetch a player's UUID
-    usage: /<command> <name>
     aliases: [find]
+    permission: easyuuid.fetch
+  uuid:
+    description: See your own UUID
+    permission: easyuuid.uuid
+
+permissions:
+  easyuuid.fetch:
+    description: Allowed to fetch other player UUID's
+    default: op
+  easyuuid.uuid:
+    description: See your own UUID
+    default: true
